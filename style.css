@@ -1,0 +1,20 @@
+/* .navbar{
+    border: 2px solid black;
+    border-radius:10px ;
+} */
+/* .card-body{
+    text-align: center;
+} */
+.blockquote{
+  
+      text-align: center;
+
+}
+.quote{
+    font-size:20px ;
+}
+.cards{
+    position: relative;
+    top:45px;
+    
+}
