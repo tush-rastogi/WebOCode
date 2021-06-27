@@ -12,6 +12,9 @@
             event.preventDefault()
             event.stopPropagation()
           }
+
+          else
+          alert('Form Submitted.We will contact you Soon.');
   
           form.classList.add('was-validated')
         }, false)
