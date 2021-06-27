@@ -1,7 +1,4 @@
 
-
-
-
 (function () {
     'use strict'
   
@@ -19,6 +16,18 @@
   
           form.classList.add('was-validated')
         }, false)
-      })
-      
-  })()
+      });
+
+      console.log("hello");
+      let x=document.querySelector(".location");
+
+      x.addEventListener('onclick',(e)=>{
+       e.preventDefault();
+        console.log("hello");
+         x.style.display="block";
+         
+    
+      });
+      console.log("hello");
+  })();
+
