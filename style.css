@@ -34,16 +34,34 @@
     top:30px;
 }
 .bottom{
-    width: 100%;
-    height:35%;
-    background-color: black;
+   
     position: relative;
     top:80px;
-    opacity: 0.9;
+  /* opacity: 0.9; */
 }
 
 .review{
     position:relative;
     top:15px;
     text-align: center;
+}
+
+.social{
+     
+      margin-top:70px;
+      letter-spacing: 45px;
+    }
+
+
+
+.items,.list{
+       margin-top:45px;
+       color:black;
+       line-height: 34px;
+       font-weight: lighter;
+     
+}
+
+.bottom ul li{
+     list-style-type: none;
 }
