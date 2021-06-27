@@ -65,3 +65,20 @@
 .bottom ul li{
      list-style-type: none;
 }
+
+a{
+    text-decoration: none;
+    color:white;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+
+a:hover{
+
+    color:green;
+}
+
+.details{
+    
+     text-align: center;
+}
