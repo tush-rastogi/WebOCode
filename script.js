@@ -1,6 +1,5 @@
 
-(function () {
-    'use strict'
+    
   
     // Fetch all the forms we want to apply custom Bootstrap validation styles to
     var forms = document.querySelectorAll('.needs-validation')
@@ -18,16 +17,25 @@
         }, false)
       });
 
-      console.log("hello");
-      let x=document.querySelector(".location");
+      
+      let x=document.querySelector("#location");
+       let y=document.querySelector('#loc-btn');
+      
+      y.addEventListener("click",()=>{
+    
+      
+         x.style.display="flex";
+       
 
-      x.addEventListener('onclick',(e)=>{
-       e.preventDefault();
-        console.log("hello");
-         x.style.display="block";
+         setTimeout(()=>{
+          
+          x.style.display="none";
+         
+
+
+         },4000);
          
     
       });
-      console.log("hello");
-  })();
-
+    
+   

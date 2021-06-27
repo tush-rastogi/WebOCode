@@ -1,8 +1,6 @@
-
-/* .card-body{
-    text-align: center;
-} */
-
+html {
+    scroll-behavior: smooth;
+  }
 .blockquote{
   
       text-align: center;
@@ -32,6 +30,7 @@
 .scrollspy-example{
     position: relative;
     top:30px;
+   
 }
 .bottom{
    
@@ -61,7 +60,11 @@
        font-weight: lighter;
      
 }
-
+.bottom{
+    border-top: 8px solid slateblue ;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 100px;
+}
 .bottom ul li{
      list-style-type: none;
 }
@@ -88,10 +91,14 @@ a:hover{
      
 }
 
-.location{
-
-    display: none;
-}
+#location,#contact{
+     margin-top:100px;
+     margin-bottom: 20px;
+     display: none;
+     justify-content: center;
+    /* visibility:hidden; */
+    align-items: center;
+ }
 .card-body{
     background: rgba(67, 86, 139, 0.836);
     color:white;
